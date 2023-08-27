@@ -3,7 +3,7 @@
   <h1>Ecommerce Application</h1>
   <br />
 
-  <p>A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe card payment system.</p>
+  <p>A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe API.</p>
   
   <h4>
     <a href="https://fascinating-marzipan-c9fd15.netlify.app/">View Demo</a>
@@ -29,31 +29,40 @@
 - [Contact](#contact)
   
 ## 🧐 About <a name = "about"></a>
-A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe card payment system. I have implemented login and signup page for new buyers. 
+A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe card payment system. I have used cloudinary for Image Management and socket.io for real-time notifications. Also, I have implemented pagination. 
+
+**Features**
+- Login/Signup User Account
+- Cart Add/Remove Items | Update Quantities
+- Products Pagination
+- Product Search
+- My Orders
+- Admin: Dashboard access to only admin roles
+- Admin: Update Order Status | Delete Order
+- Admin: Add/Update Products
+
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [React](https://reactjs.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [Express](https://expressjs.com/)
 - [NodeJs](https://nodejs.org/en/)
-- [Firebase](https://firebase.google.com)
-- [The Movie Database (TMDB)](https://www.themoviedb.org)
+- [Cloudinary](https://cloudinary.com/)
+- [Stripe](https://stripe.com/en-in)
+- [Socket.IO](https://socket.io/)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 ```
-Create an account if you don't have on TMDB. Because I use its free API to consume movie/tv data.
+Create an account if you don't have on Cloudinary.
 ```
 
 ```
-And then follow the documentation to create API Key.
+And then follow the documentation to create cloud name and upload preset.
 ```
 
-```
-Finally, if you use v3 of TMDB API, create a file named .env, and then paste the API Key you just created.
-```
 
 Install latest version of npm
 
@@ -66,27 +75,19 @@ Install latest version of npm
 
 1. Clone the project
    ```
-   git clone https://github.com/Murali07/Netflix-Clone.git
+   git clone https://github.com/Murali07/ecommerce-frontend.git
    ```
 2. Go to project directory and Install NPM packages
    ```
    npm install
    ```
-3. Create .env file
-   
-4. Request an API key from TMDB and add it to your .env
+3. In a new directory, clone the backend and follow installation instructions on its README
    ```
-   API_KEY=""
-
-   TMDB_BASE_URL = "https://api.themoviedb.org/"
-   ```
-5. In a new directory, clone the backend and follow installation instructions on its README
-   ```
-   git clone https://github.com/Murali07/Netflix-Clone/tree/netflix-backend
+   git clone https://github.com/Murali07/ecommerce-backend.git
    ```
 6. You should now have the server running locally. Add the url to your .env
    ```
-   SERVER_URL=http://localhost:5000
+   SERVER_URL=http://localhost:8080
    ```
 7. Start the application
    ```
@@ -186,11 +187,13 @@ Install latest version of npm
 
 ## <img src="https://www.anythingit.net/wp-content/uploads/2020/04/todo.png" width="28" height="auto" /> TODO <a name = "todo"><a />
 
-**1. Frontend: React and Redux:**
+**1. Frontend: React, Redux, Cloudinary, Socket.IO:**
 
 - Set up your project using Create React App or another preferred method.
 - Create components for different parts of your application: product listing, product details, cart, checkout, user profile, etc.
-- Implement Redux for managing the application state, including cart items and user authentication status.
+- Implement Redux for managing the application state, including cart items and user authentication status. 
+- Cloudinary is used for image management, allowing you to upload, store, and retrieve product images efficiently.
+- Socket.IO enables real-time communication, which could be used for features like live chat support or instant notifications to users about order updates.
 
 **2. Backend: Node.js and Express:**
 
@@ -239,4 +242,9 @@ Install latest version of npm
 
 LinkedIn: https://www.linkedin.com/in/murali-selvaraj/
 
-Project Link: https://github.com/Murali07/Netflix-Clone.git
+Project Links:
+- Demo: https://idyllic-gaufre-afe0d9.netlify.app/
+- Frontend: https://github.com/Murali07/ecommerce-frontend.git
+- Backend: https://github.com/Murali07/ecommerce-backend.git
+
+
