@@ -5,7 +5,7 @@
   <h1>Netflix Clone</h1>
   <br />
 
-  <p>A Netflix clone built using React, Redux Toolkit, Nodejs, MongoDB. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from local storage.</p>
+  <p>A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe card payment system.</p>
   
   <h4>
     <a href="https://fascinating-marzipan-c9fd15.netlify.app/">View Demo</a>
