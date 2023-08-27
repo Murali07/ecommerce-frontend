@@ -1,8 +1,6 @@
 <div align="center">
-
-  <img src="https://user-images.githubusercontent.com/99184393/211183762-03b6e9b4-9fcd-4874-a0e4-20cf00537c06.gif" alt="logo" width="400" height="auto" />
-
-  <h1>Netflix Clone</h1>
+  
+  <h1>Ecommerce Application</h1>
   <br />
 
   <p>A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe card payment system.</p>
@@ -10,14 +8,14 @@
   <h4>
     <a href="https://fascinating-marzipan-c9fd15.netlify.app/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Murali07/Netflix-Clone#readme">Documentation</a>
+    <a href="https://github.com/Murali07/ecommerce-frontend#readme">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Murali07/Netflix-Clone/issues">Report Bug</a>
+    <a href="https://github.com/Murali07/ecommerce-frontend/issues">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Murali07/Netflix-Clone/issues">Request Feature</a>
+    <a href="https://github.com/Murali07/ecommerce-frontend/issues">Request Feature</a>
   </h4>  
   
-  ![readme-header](https://github.com/Murali07/Netflix-Clone/assets/18513537/6fb4d6d2-cc54-478f-8716-edb7c91ee5d2)
+  ![home](https://github.com/Murali07/ecommerce-frontend/assets/18513537/d5662af8-c40a-4220-b7fe-79fb17d908c1)
 
 </div>
 
@@ -31,7 +29,7 @@
 - [Contact](#contact)
   
 ## 🧐 About <a name = "about"></a>
-A Netflix clone built using React, Redux Toolkit, Nodejs, Express, MongoDB. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from local storage. I have implemented Firebase authentication for user sign-up and login and Firebase Storage to store user details. Also, I have implemented MongoDB CRUD operations. You can add the movies/TV Shows to my list and you can delete it from my list. 
+A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe card payment system. I have implemented login and signup page for new buyers. 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [React](https://reactjs.org/)
@@ -188,39 +186,53 @@ Install latest version of npm
 
 ## <img src="https://www.anythingit.net/wp-content/uploads/2020/04/todo.png" width="28" height="auto" /> TODO <a name = "todo"><a />
 
-**1. Project Setup:**
+**1. Frontend: React and Redux:**
 
-- Set up the front-end using React and Redux Toolkit for state management.
-- Create a backend using Node.js and Express to handle API requests.
-- Set up a MongoDB database to store movie and user-related data.
-- Implement Firebase authentication for user sign-up and login.
-- Utilize Firebase Storage to store user details.
+- Set up your project using Create React App or another preferred method.
+- Create components for different parts of your application: product listing, product details, cart, checkout, user profile, etc.
+- Implement Redux for managing the application state, including cart items and user authentication status.
 
-**2. Front-End:**
+**2. Backend: Node.js and Express:**
 
-- Create different components for the homepage, movie/TV show details, user authentication, and user profile.
-- Implement React Router to handle navigation between different pages.
-- Use Redux Toolkit for state management to manage data fetched from the TMDB API and local storage (for trailers).- 
-- Fetch movie and TV show data from the TMDB API to display on the homepage.
-- Enable users to search for movies/TV shows using the TMDB API.
-- Add buttons to add or remove movies/TV shows to/from "My List".
+- Set up a Node.js project and initialize it using npm or yarn.
+- Create routes and controllers for various functionalities such as product management, user authentication, cart management, and payment processing.
+- Implement JWT (JSON Web Tokens) authentication for user login and registration.
+- Connect your backend to MongoDB to store user data, product information, cart items, etc.
 
-**3. Firebase Authentication:**
+**3. Database: MongoDB:**
 
-- Implement Firebase authentication using Firebase SDK in your React application.
-- Set up sign-up and login pages for users to create accounts and log in.
-- Store user authentication details in Firebase.
+- Design your database schema to store products, users, carts, and orders.
+- Use a library like Mongoose to interact with MongoDB from your Node.js application.
+- Create models for products, users, carts, and orders, and define their relationships.
 
-**4. Back-End:**
+**4. Authentication: JWT (JSON Web Tokens):**
 
-- Create API endpoints using Node.js and Express to handle CRUD operations for movies and TV shows.
-- Set up routes for adding/deleting movies or TV shows to/from the user's list.
-- Connect to the MongoDB database to perform CRUD operations for storing and retrieving movie data.
+- Implement a user authentication system using JWT.
+- Allow users to sign up and log in securely, generating tokens upon successful authentication.
+- Protect certain routes on your backend using middleware that verifies JWT tokens.
 
-**5. Deployment:**
+**5. Admin Panel:**
 
-- Deploy the front-end and back-end separately, either on platforms like Vercel/Netlify (front-end) and Heroku (back-end) or any other hosting service you prefer.
-- Ensure that the environment variables and sensitive data are handled securely during deployment.
+- Implement an admin panel that's protected by authentication.
+- Create functionalities for admin to manage products: create, update, and delete products.
+
+**6. Stripe Integration for Payments:**
+
+- Set up a Stripe account and get your API keys.
+- Integrate Stripe on the frontend by using Stripe Elements to create a secure payment form.
+- Handle the frontend and backend communication for processing payments.
+- Create routes and controllers to handle the payment process using the Stripe API.
+
+**7. User Experience:**
+
+- Design a user-friendly and responsive interface for your application.
+- Implement features like adding/removing items from the cart, viewing cart contents, and checking out.
+- Provide feedback to users about the status of their orders and payments.
+
+**8. Deployment:**
+
+- Deploy your frontend and backend to separate hosting platforms (like Netlify, Vercel, Heroku, etc.) or on a cloud service.
+- Configure environment variables to keep sensitive information (API keys, database URLs, etc.) secure.
 
 
 ## :handshake: Contact <a name = "contact"></a>
