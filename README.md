@@ -6,7 +6,7 @@
   <p>A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodejs, ExpressJS and JWT Authentication with Stripe payment system that allows admin to create, update and delete products and buyers to save products to cart and purchase via Stripe API.</p>
   
   <h4>
-    <a href="https://fascinating-marzipan-c9fd15.netlify.app/">View Demo</a>
+    <a href="https://idyllic-gaufre-afe0d9.netlify.app/">View Demo</a>
   <span> · </span>
     <a href="https://github.com/Murali07/ecommerce-frontend#readme">Documentation</a>
   <span> · </span>
