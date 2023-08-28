@@ -33,12 +33,13 @@ A Full-Stack Ecommerce application that built using React, Redux, MongoDB, Nodej
 
 **Features**
 - Login/Signup User Account
-- Cart Add/Remove Items | Update Quantities
+- Cart Add/Remove Items
+- Purchase products
 - Products Pagination
 - Product Search
 - My Orders
 - Admin: Dashboard access to only admin roles
-- Admin: Update Order Status | Delete Order
+- Admin: Update Order Status
 - Admin: Add/Update Products
 
 
@@ -98,86 +99,66 @@ Install latest version of npm
 
 **Creating an Account**
 
-![readme-signup](https://github.com/Murali07/Netflix-Clone/assets/18513537/69bb0ed4-ec63-48ad-8649-1a6ee9c3c523)
 
-1. Go to Sign Up page.
-   - From the signup page, enter your email and click 'Get Started' then enter the password.     
-   - From Sign In page, click on the 'Sign In' button righ top corner (or) click the 'Sign up now' link below 'Log In' button. 
+1. Go to Signup page.
+   - From the signup page, enter your email and password and click on 'Create account' button.   
+   - From Login page, click on the 'create account' link. 
 2. Input the necessary fields. 
    - You need to enter the correct email format. (ex: name@example.com)
    - Your password should be at least 6 characters length.
-   - Your email and password will be stored in Firebase Storage.
-3. You'll be redirected to the Netflix home page.
+   - Your email and password will be stored in MongoDB database with Bcrypt hash password.
+3. You'll be redirected to the home page.
 
 <br />
 
 **Logging In**
 
-![readme-login](https://github.com/Murali07/Netflix-Clone/assets/18513537/16404389-7ee8-493b-bba5-af772e55d49b)
 
-1. Go to Sign In page.
-   - From the Sign Up page, click 'Log In' button.  
+
+1. Go to Login page.
+   - By default you will be redirected to Ecommerce home page.
+   - From home page click on 'Login' button to go to Login page.
+   - From the create account page, click on 'Login' button right top corner (or) click on 'Login' link. 
 2. Input the necessary fields and proceed.
    - You can sign in using email and password which is created in the above steps.
+   - For admin account use the below credentials to login
+   ```
+   Email: admin@gmail.com
+   Password: 123456
+   ```
+   - For customers, buyers, and clients accounts, you can create your own account by going to the Create Account page.
 
 <br />   
 
-**Searching for a Show**
+**User Account Usage**
 
-![readme-header](https://github.com/Murali07/Netflix-Clone/assets/18513537/be68e059-e360-45b7-98a8-f3a49ae084a6)
-
-![readme-movies](https://github.com/Murali07/Netflix-Clone/assets/18513537/8041dce5-f4d2-49e5-bcb5-519303214b13)
-
-![readme-tvShows](https://github.com/Murali07/Netflix-Clone/assets/18513537/c5fadd1c-5e69-42f1-9a9e-064f97101875)
-
-1. Once successful login you will be redirected to Netflix home page.
-2. Click the appropriate tab for your search.
-   - If searching for a movie, click 'Movies' tab in the header.
-   - If searching for a series, click 'TV Shows' tab in the header.
-3. Click the search icon on the header.
-4. Input your search term and press enter.
+1. You can view, search, and add products to your cart.
+2. You can search by category.
+3. You can search by product name by typing in the search bar.
+4. You can view the last products (recently added products).
+5. You can add products to your shopping cart and order them later.
+6. You can increase or decrease the product quantity in your cart.
+7. You can buy products by adding your address and card details and making payment with the Stripe API payment system.
+8. You can track your order status by clicking on 'My Orders' from the drop-down options on your account.
 
 <br />
 
-**Adding Movie/TV to My List**
+**Admin Account Usage**
 
-![readme-addtolist](https://github.com/Murali07/Netflix-Clone/assets/18513537/023874b7-4571-4c2b-b2e0-252b60679539)
 
-![readme-myList](https://github.com/Murali07/Netflix-Clone/assets/18513537/f8b85777-6cbb-4a0f-a339-7293899d5786)
-
-1. Mouse hover the movie/tv show then click 'Add to my list' icon to add it to your My List.
-2. Click 'My List' tab in the header.
-3. You can see your added lists in 'My List' page.
-
-<br />
-
-**Deleting My List**
-
-![readme-deleteList](https://github.com/Murali07/Netflix-Clone/assets/18513537/7e030bba-68be-4e91-a2f3-bc7003fb4bf1)
-
-1. Mouse hover the movie/tv show then click 'Remove From List' icon to remove it from your My List.
-2. Remove cursor from the movie and you can see the movie has been deleted from My List.
-
-<br />
-
-**Play Movie**
-
-![readme-watch](https://github.com/Murali07/Netflix-Clone/assets/18513537/850120ca-4220-419a-abe1-05653db7a9b1)
-
-1. Click 'Play' button/icon.
-2. You will be redirected to Watch Page and video will be playing.
-3. Click on three dots, you can see options like Download, Playback Speed, and Picture in picture.
-4. Click backarrow icon to go back.
-
-<br />
-
-**Select Movie/TV by genre**
-
-![readme-genere](https://github.com/Murali07/Netflix-Clone/assets/18513537/23324912-c642-4eeb-b0c5-5cffee1ccdc0)
-
-1. Click on the drop down button from Movie/TV page.
-2. Select the genres from the options.
-3. Movies/TV shows will be displayed as per the selected genre.
+1. You will be directed to admin dashboard.
+2. You have two drop down options
+   - Dashboard
+   - Create Product
+3. Click on the Dashboard and you have three tabs
+   - Products
+   - Orders
+   - Clients
+4. Click on the Products tab, here you can Delete and Edit products.
+5. Click on the Orders tab, here you can view and update orders by clicking on 'Mark as Shipped' button.
+6. Click on the Clients tab, here you can view the clients account details.
+7. Click on the 'Create Product' drop down to create products.
+8. You can upload product images using cloudinary image management. Cloudinary provides a cloud-based, end-to-end image and video management solution for websites and mobile apps.
 
 
 ## 🚀 Deployment <a name = "deployment"></a>
