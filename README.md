@@ -64,6 +64,13 @@ Create an account if you don't have on Cloudinary.
 And then follow the documentation to create cloud name and upload preset.
 ```
 
+```
+In the NewProduct and EditProducts javascript files, you need to enter your cloudname and upload preset by following the above steps.
+
+cloudName: "your-cloudname",
+uploadPreset: "your-preset",
+```
+
 
 Install latest version of npm
 
