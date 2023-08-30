@@ -142,15 +142,7 @@ Install latest version of npm
 
 **User Account Usage**
 
-![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/dc09469e-5f56-48ae-8a17-6a34f915b404)
-
-![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/2302d714-9f34-466f-b067-1f644b39583e)
-
-![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/ed118ce6-0828-4737-86b3-c76e7fbc9f48)
-
-
-
-
+https://github.com/Murali07/ecommerce-frontend/assets/18513537/a207973a-d732-4e17-adc6-11d81903ac39
 
 
 1. You can view, search, and add products to your cart.
@@ -165,6 +157,8 @@ Install latest version of npm
 <br />
 
 **Admin Account Usage**
+
+
 
 
 1. You will be directed to admin dashboard.
