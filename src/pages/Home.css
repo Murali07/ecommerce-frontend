@@ -27,17 +27,26 @@ img.card-img-top.product-preview-img {
 }
 
 .sale__banner--container img {
-  max-width: 1200px;
-  display: block;
-  margin: 0 auto;
+  max-width: 600px;  
+  margin: 0 auto;  
 }
 
 .copyright {
-  width: 100%;  
+  width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #f9f9f9; 
-  text-align: center; 
+  background: #f9f9f9;
+  text-align: center;
   font-weight: 600;
-  font-size: 12px;  
+  font-size: 12px;
+}
+
+@media screen and (max-width: 756px) {
+  .home-banner {
+    width: 100%;
+  }
+  .sale__banner--container img,
+  .about__banner--contianer img {
+    width: 100%;
+  }
 }

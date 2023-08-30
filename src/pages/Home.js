@@ -10,6 +10,8 @@ import { updateProducts } from "../features/productSlice";
 import ProductPreview from "../components/ProductPreview";
 import homebanner from "../assets/home.png";
 import aboutbanner from "../assets/about.png";
+import sale1 from "../assets/sale1.png";
+import sale2 from "../assets/sale2.png";
 
 function Home() {
     const dispatch = useDispatch();
@@ -21,7 +23,7 @@ function Home() {
     return (
         <div>
             {/* home banner */}
-            <img src={homebanner} className="home-banner" />
+            <img src={homebanner} className="home-banner" alt="Home banner" />
             <div className="featured-products-container container mt-4">
                 <h2>Last products</h2>
                 {/* last products here */}
@@ -37,8 +39,9 @@ function Home() {
                 </div>
             </div>
             {/* sale banner */}
-            <div className="sale__banner--container mt-4">
-                <img src="https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png" />
+            <div className="sale__banner--container mt-4">                
+                <img src={sale1} alt="promo_banner" />
+                <img src={sale2} alt="promo_banner" />
             </div>
             <div className="recent-products-container container mt-4">
                 <h2>Categories</h2>
@@ -55,8 +58,8 @@ function Home() {
                 </Row>
             </div>
             {/* about banner */}
-            <div className="mt-5">                
-                <img src={aboutbanner} />
+            <div className="about__banner--contianer mt-5">                
+                <img src={aboutbanner} alt="about_banner" />
             </div> 
             {/* footer */}
             <div className="copyright">
