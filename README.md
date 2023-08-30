@@ -106,6 +106,8 @@ Install latest version of npm
 
 **Creating an Account**
 
+![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/8cd6c647-05ff-4665-8748-b9e3b93ac32e)
+
 
 1. Go to Signup page.
    - From the signup page, enter your email and password and click on 'Create account' button.   
@@ -120,6 +122,7 @@ Install latest version of npm
 
 **Logging In**
 
+![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/2eb70859-d1d7-45ab-bc91-514096d2cdc1)
 
 
 1. Go to Login page.
@@ -138,6 +141,17 @@ Install latest version of npm
 <br />   
 
 **User Account Usage**
+
+![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/dc09469e-5f56-48ae-8a17-6a34f915b404)
+
+![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/2302d714-9f34-466f-b067-1f644b39583e)
+
+![image](https://github.com/Murali07/ecommerce-frontend/assets/18513537/ed118ce6-0828-4737-86b3-c76e7fbc9f48)
+
+
+
+
+
 
 1. You can view, search, and add products to your cart.
 2. You can search by category.
